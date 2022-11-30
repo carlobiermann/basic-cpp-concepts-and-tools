@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.2)
 
-project(a.out)
+project(simple_scoped_timer)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
