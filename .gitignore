@@ -14,11 +14,11 @@
 
 *.out
 
-# Build folder
+# Build folders
 /build/
-/cmake-build-debug/
-/*/cmake-build*/
-/cmake-build-release/
+/cmake-build*/
+/**/build/
+/**/cmake-build*/
 
 
 # Clion folders

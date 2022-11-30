@@ -7,7 +7,7 @@
 #include <memory>
 
 
-/// A scope base timer
+/// A scope based timer
 class Timer {
 public:
     Timer() {
@@ -77,9 +77,6 @@ int main() {
             unique_ptrs[i] = std::make_unique<Vector2>();
         }
     }
-
-
-
 
     return 0;
 }
