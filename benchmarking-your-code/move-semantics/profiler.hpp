@@ -162,7 +162,7 @@ namespace cb::benchmarking {
         }
     };
 
-} // namespace cv::benchmarking
+} // namespace cb::benchmarking
 
 
 
