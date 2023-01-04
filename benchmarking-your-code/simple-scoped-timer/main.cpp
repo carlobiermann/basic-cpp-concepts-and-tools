@@ -1,9 +1,9 @@
 /// All code derived from The Cherno's benchmarking video
 /// https://www.youtube.com/watch?v=YG4jexlSAjc
 
-#include <iostream>
-#include <chrono>
 #include <array>
+#include <chrono>
+#include <iostream>
 #include <memory>
 
 
@@ -21,7 +21,8 @@ public:
     void stop() {
         auto end_timepoint = std::chrono::high_resolution_clock::now();
 
-        auto start = std::chrono::time_point_cast<std::chrono::microseconds>(m_start_timepoint).time_since_epoch().count();
+        auto start =
+                std::chrono::time_point_cast<std::chrono::microseconds>(m_start_timepoint).time_since_epoch().count();
         auto end = std::chrono::time_point_cast<std::chrono::microseconds>(end_timepoint).time_since_epoch().count();
 
         auto duration = end - start;
@@ -48,7 +49,7 @@ int main() {
     /// Profiling make_shared and make_unique in Release and Debug
     /// It's important to profile in Release mode
     struct Vector2 {
-        float x,y;
+        float x, y;
     };
 
     std::cout << "Make shared" << std::endl;

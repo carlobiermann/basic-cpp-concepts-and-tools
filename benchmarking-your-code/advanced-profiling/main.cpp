@@ -13,12 +13,13 @@
 /// Source: https://gist.github.com/maronsson/073840bf94e4d6df94c5f294a6e96e03?permalink_comment_id=3288526#gistcomment-3288526
 
 
-#include <iostream>
 #include <unistd.h>
+
+#include <iostream>
 #include <profiler.hpp>
 
 
-void a () {
+void a() {
     PROFILE_FUNCTION();
     usleep(50000);
 }
